@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+
+.feedback{
+    font-family: 'Inter', sans-serif;
+}
+
+.feedback-header{
+    background-color: #d9d9d9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 180px;
+    padding: 24px 230px;
+    text-align: center;
+    align-items: center;
+}
+
+.feedback-form{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.question{
+    display: block;
+    margin-top: 24px;
+}
+
+.question textarea{
+    display: block;
+    width: 100%;
+    min-height: 110px;
+    margin-top: 6px;
+    padding: 8px;
+    background-color: #d9d9d9;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.rating-options{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top:4px;
+}
+
+.rating-options label{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.feedback-form fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback-form legend{
+   margin-bottom: 0;
+   padding: 0;
+}
+
+.submit-button{
+    display: block;
+    margin: 32px auto 0 auto;
+    padding: 10px 32px;
+    background-color: #d9d9d9;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.feedback-logo{
+    position: absolute;
+    left: 24px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-header div{
+    flex: 1;
+    text-align: center;
+}
+
+.feedback-header{
+   background-color: #d9d9d9;
+   padding: 24px;
+   display: flex;
+   align-items: center;
+   gap: 24px;
+}
