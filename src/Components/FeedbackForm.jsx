@@ -19,7 +19,8 @@ function FeedbackForm() {
           <h1>Anonymous Feedback Form</h1>
           <p>
             We value your feedback. Thank you for taking the time to help us
-            improve!
+            improve!  
+             
           </p>
         </div>
       </header>
