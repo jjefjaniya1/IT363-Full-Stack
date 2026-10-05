@@ -36,6 +36,7 @@ function FeedbackForm() {
               type="radio"
               name="rating"
               value="Poor"
+              required
               checked={rating === "Poor"}
               onChange={(e) => setRating(e.target.value)}
             />
@@ -46,6 +47,7 @@ function FeedbackForm() {
               type="radio"
               name="rating"
               value="Fair"
+              required
               checked={rating === "Fair"}
               onChange={(e) => setRating(e.target.value)}
             />
@@ -56,6 +58,7 @@ function FeedbackForm() {
               type="radio"
               name="rating"
               value="Good"
+              required
               checked={rating === "Good"}
               onChange={(e) => setRating(e.target.value)}
             />
@@ -66,6 +69,7 @@ function FeedbackForm() {
               type="radio"
               name="rating"
               value="Excellent"
+              required
               checked={rating === "Excellent"}
               onChange={(e) => setRating(e.target.value)}
             />
@@ -79,6 +83,7 @@ function FeedbackForm() {
           <textarea name="enjoy"
             placeholder="Please type your feedback here..."
             value={enjoyedFB}
+            required
             onChange={(e) => setEnjoyedFB(e.target.value)}
           />
         </label>
@@ -88,6 +93,7 @@ function FeedbackForm() {
           <textarea name="improve"
             placeholder="Please type your feedback here..."
             value={improveFB}
+            required
             onChange={(e) => setImproveFB(e.target.value)}
           />
         </label>
